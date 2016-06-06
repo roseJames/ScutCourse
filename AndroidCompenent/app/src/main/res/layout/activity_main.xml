@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.rosejames.androidcompenent.MainActivity">
+
+    <Button
+        android:id="@+id/btn_new_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动一个新的Activity"/>
+
+    <Button
+        android:id="@+id/btn_new_service_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用StartService启动Service"/>
+
+    <Button
+        android:id="@+id/btn_new_service_bind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用BindService启动Service"/>
+
+    <Button
+        android:id="@+id/btn_unbind_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="unBindService"/>
+
+    <Button
+        android:id="@+id/btn_stop_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用stopService停止Service"/>
+
+    <Button
+        android:id="@+id/btn_receiver_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动时钟广播接收"/>
+
+    <Button
+        android:id="@+id/btn_send_broadcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送广播"/>
+
+</LinearLayout>
